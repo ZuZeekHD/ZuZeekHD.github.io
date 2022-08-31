@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="cz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nabízíme</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">DOMŮ</a></li>
+            <li><a href="o-nas.html">O NÁS</a></li>
+            <li><a href="nabidka.html">SLUŽBY</a></li>
+            <li><a href="cenik.html">CENÍK</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Nabízíme</h1>
+    </header>
+
+    <section class="offer">
+      <div class="row">
+        <a href="cenik.html">
+          <h3>Sportovní masáž</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi
+            harum magnam blanditiis tempora fugiat eaque ab mollitia vitae
+            voluptatum inventore autem quod esse temporibus, et, placeat
+            commodi, excepturi consequatur quisquam?
+          </p>
+        </a>
+
+        <a href="cenik.html">
+          <h3>Relaxační masáž</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi
+            consequatur consequuntur blanditiis placeat iusto natus facere iste,
+            esse autem ullam aperiam, incidunt a cumque porro est, facilis totam
+            corrupti?
+          </p>
+        </a>
+        <a href="cenik.html">
+          <h3>Nabuzující masáž</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab velit
+            consectetur perferendis exercitationem harum quae, cupiditate
+            sapiente vero deleniti a animi rerum architecto commodi odit, fuga
+            illo ducimus delectus eligendi.
+          </p>
+        </a>
+      </div>
+
+      <div class="row">
+        <a href="cenik.html">
+          <h3>Trigger pointy</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nulla
+            ipsa minus numquam dignissimos veniam atque consequuntur
+            exercitationem placeat quia sunt, magni deserunt eum doloremque
+            incidunt, corporis obcaecati fuga mollitia!
+          </p>
+        </a>
+        <a href="cenik.html">
+          <h3>Shiatsu</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+            quod ipsa explicabo tenetur in nemo? Quibusdam explicabo, a commodi
+            nostrum facilis cupiditate id, quasi cum ex ut, odio voluptatum
+            saepe!
+          </p>
+        </a>
+        <a href="cenik.html">
+          <h3>Baňkování</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            culpa repudiandae et ipsum qui eius ratione iste. Sequi inventore
+            tenetur ipsum vero ducimus alias sed? Doloribus exercitationem
+            incidunt dolore magni!
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <h4>Sledujte nás:</h4>
+      <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100000719696757"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/katerina-michalkova-1707b465/"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+      </div>
+      <p>Made by ZuZeekHD</p>
+    </footer>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.display = "block";
+      }
+      function hideMenu() {
+        navLinks.style.display = "none";
+      }
+    </script>
+  </body>
+</html>

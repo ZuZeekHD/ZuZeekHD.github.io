@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="cz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masáže Katka Michálková</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header id="main-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">DOMŮ</a></li>
+            <li><a href="o-nas.html">O NÁS</a></li>
+            <li><a href="nabidka.html">SLUŽBY</a></li>
+            <li><a href="cenik.html">CENÍK</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Masáže Katka Michálková</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />Quidem
+          nemo tempora cupiditate ullam, quis perspiciatis omnis!
+        </p>
+        <a href="nabidka.html" class="hero-btn">Nabízené služby</a>
+      </div>
+    </header>
+    <footer id="main-footer">
+      <h4>Sledujte nás:</h4>
+      <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100000719696757"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/katerina-michalkova-1707b465/"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+      </div>
+      <p>Made by ZuZeekHD</p>
+    </footer>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.display = "block";
+      }
+      function hideMenu() {
+        navLinks.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
